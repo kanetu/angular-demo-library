@@ -2,13 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-
+import { KanetuComponent, FooterComponent, HeaderComponent, LoginComponent, LeftSidebarComponent} from 'kanetu';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KanetuComponent,
+    FooterComponent,
+    HeaderComponent,
+    LoginComponent,
+    LeftSidebarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
