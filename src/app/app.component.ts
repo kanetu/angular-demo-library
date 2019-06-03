@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'angular01';
 
   menuSidebar = [
-    {name: 'Hieu', link: '/'},
+    {name: 'Login', link: '/'},
+    {name: 'Main', link: '/main'},
   ];
 }

@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { KanetuComponent, FooterComponent, HeaderComponent, LoginComponent, LeftSidebarComponent} from 'kanetu';
+import { MainComponent } from './pages/main/main.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -10,10 +14,12 @@ import { KanetuComponent, FooterComponent, HeaderComponent, LoginComponent, Left
     FooterComponent,
     HeaderComponent,
     LoginComponent,
-    LeftSidebarComponent
+    LeftSidebarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
